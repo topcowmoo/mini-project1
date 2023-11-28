@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: Calibri, sans-serif, Arial, Helvetica;
+    font-size: 20px;
+    background-color: #dde4ef;
+    color: #262626;
+}
+h1,
+h2 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+footer
+h1
+h2
+main
+figure
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
