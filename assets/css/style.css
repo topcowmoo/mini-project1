@@ -10,6 +10,7 @@ body {
     background-color: #dde4ef;
     color: #262626;
 }
+
 h1,
 h2 {
     margin: 20px;
@@ -25,11 +26,82 @@ li {
     text-decoration: none;
 }
 
-footer
-h1
-h2
-main
-figure
+a {
+    text-decoration: none;
+    color: #FDF8F5;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: rgb(20, 91, 127);
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #b7aeac;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #b7aeac;
+  color: #FDF8F5;
+  font-size: 14px;    
+}
+
+figure {
+    margin-bottom: 40px;
+}
+  
+img {
+    display: block;
+    margin: 20px auto;
+}
+  
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #b7aeac;
+    background-color: whitesmoke
+} 
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #b7aeac;
+    border-radius: 13px;
+}
+  
+label {
+    display: inline-block;
+    width: 100px;
+}
+    
+input, 
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+}
+  
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+    
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+}
+  
 
 .text-center {
     text-align: center;
